@@ -67,7 +67,7 @@ From this EmployeeDetails table, we will filter employee job titles by "Sales Re
 ![7_Employee who didn't made any sales](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/fde8ff6c-5afe-4f84-ae49-a6dbf8d9e9ea)
 ![7_Employee who didn't made any sales_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/197146de-b39f-4c75-a84f-e76868150f02)
 
-We can see there are two sales representatives who didn't make any sales, but for certain customers, the sales representative number was not mapped, so the data above may not be accurate. We have elaborated on the insufficient data issue with the client.
+We can see there are two sales representatives who didn't make any sales, but for certain customers, the sales representative number was not mapped, so the data above may not be accurate. We have elaborated the insufficient data issue with the client.
 
 
 ### Evaluating MintClassics credit policies
@@ -85,7 +85,7 @@ I have performed data analysis using SQL queries and formulated recommendations 
 
 *  **Inventory** -  We have to remove the 1985 Toyota Supra from warehouse B, which has never been ordered from the start; this could increase the warehouse capacity. During our analysis, we identified a couple of products with a high volume of stock but low sales in all the warehouses. The best way to deal with it is to compare the price range of those products on the market and adjust the price accordingly. This may attract customers and increase the volume of sales. We can also do promotional campaigns, offer discounts, hire a social media influencer to promote the product, and offer bulk deals to motivate customers to purchase the products. We have to restock the out-of-stock products to meet customer demand and maintain sales flow.
 
-* **Employeee**  - 
+* **Employeee**  - We can boost the employees who made high sales by providing bonuses, incentives,  holiday packages, etc. We have to discuss with the employees who didn't make any sales, and based on the discussion, we have to provide the necessary training or support to increase their skills. 
 
 
 
