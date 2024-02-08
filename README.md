@@ -56,6 +56,41 @@ We can see there was one product where the InventoryStatus shows "ToDiscontinue"
 ![6_Checking if there are products that have not been ordered_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/34852d76-508e-42f2-9901-1bd1c1a8f03c)
 
 
+### Evaluating employee sales performance using sales data
+This helps us obtain a list of employee details along with their job titles, as well as a customer count for each employee.
+
+![7_Employee sales summary](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/9224137c-ad3c-43a6-a414-a65baba55cf6)
+![7_Employee sales summary_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/411732bd-ed08-49bd-8612-d94fc54df541)
+
+From this EmployeeDetails table, we will filter employee job titles by "Sales Rep" and number of customers count less than 1.
+
+![7_Employee who didn't made any sales](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/fde8ff6c-5afe-4f84-ae49-a6dbf8d9e9ea)
+![7_Employee who didn't made any sales_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/197146de-b39f-4c75-a84f-e76868150f02)
+
+We can see there are two sales representatives who didn't make any sales, but for certain customers, the sales representative number was not mapped, so the data above may not be accurate. We have elaborated on the insufficient data issue with the client.
+
+
+### Evaluating MintClassics credit policies
+We can identify customers who have payments less than their credit limits and evaluate credit risk that needs attention.
+
+![8_Verifying company’s credit details](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/11b2e07f-a352-4069-9ec4-8861ee594b02)
+![8_Verifying company’s credit details_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/60a2e43b-0e1a-4b13-9a88-ade309cc0ac2)
+
+
+
+### Formulate suggestions and recommendations for solving the business problem.
+I have performed data analysis using SQL queries and formulated recommendations to address the inventory-related business problems.
+
+* Warehouse - Based on the available data, warehouse C has the most space available (only 50% filled), and warehouses B and C share the same category of products. So we can discontinue a couple of overstocked products in warehouse B and move the products from warehouse C to warehouse B. This helps us to reduce warehouse rental costs and optimize inventory allocation.  
+(Note: With the available data, we can't make a clear decision on which warehouse needs to close, so I recommend the company share additional details and conduct further analysis.)
+
+
+
+
+
+
+
+
 
  
 
