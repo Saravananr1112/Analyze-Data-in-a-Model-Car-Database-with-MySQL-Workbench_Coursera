@@ -81,9 +81,7 @@ We can identify customers who have payments less than their credit limits and ev
 ### Formulate suggestions and recommendations for solving the business problem.
 I have performed data analysis using SQL queries and formulated recommendations to address the inventory-related business problems.
 
-* Warehouse - Based on the available data, warehouse C has the most space available (only 50% filled), and warehouses B and C share the same category of products. So we can discontinue a couple of overstocked products in warehouse B and move the products from warehouse C to warehouse B. This helps us to reduce warehouse rental costs and optimize inventory allocation.  
-(Note: With the available data, we can't make a clear decision on which warehouse needs to close, so I recommend the company share additional details and conduct further analysis.)
-
+* **Warehouse** - We can close warehouse C, which has space available (only 50% filled), and warehouses B and C share the same category of products. Also, we can remove the 1985 Toyota Supra, which has never been ordered from warehouse B. This helps us to reduce warehouse rental costs and optimize inventory allocation.  
 
 
 
