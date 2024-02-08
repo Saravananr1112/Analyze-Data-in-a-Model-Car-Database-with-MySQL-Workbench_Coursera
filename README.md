@@ -38,7 +38,7 @@ The result clearly shows that both warehouses B and C are storing the same produ
 
 
 ### Warehouse stock inventory product wise
-To identify products with high inventory volume but low sales?
+To identify products with high volume of stock but low sales.
 
 ![4_Warehouse stock inventory product wise](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/8a035f44-3611-4c81-bf01-61fe7b20cfc7)
 ![4_Warehouse stock inventory product wise_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/befc34d4-b60b-4ed9-b1c8-cad27583bd73)
@@ -81,13 +81,18 @@ We can identify customers who have payments less than their credit limits and ev
 ### Formulate suggestions and recommendations for solving the business problem.
 I have performed data analysis using SQL queries and formulated recommendations to address the inventory-related business problems.
 
-* **Warehouse** - We can close warehouse C, which has space available (only 50% filled), and warehouses B and C share the same category of products. Also, we can remove the 1985 Toyota Supra, which has never been ordered from warehouse B. It will help us to reduce warehouse rental costs and optimize inventory allocation.
+* **Warehouse** - We can close warehouse C, which has space available (only 50% filled), and warehouses B and C share the same category of products. Also, we can remove the 1985 Toyota Supra, which has never been ordered from warehouse B. It will help us to maintain an optimized inventory and reduce rental, electricity, and labor costs.
 
 *  **Inventory** -  We have to remove the 1985 Toyota Supra from warehouse B, which has never been ordered from the start; this could increase the warehouse capacity. During our analysis, we identified a couple of products with a high volume of stock but low sales in all the warehouses. The best way to deal with it is to compare the price range of those products on the market and adjust the price accordingly. This may attract customers and increase the volume of sales. We can also do promotional campaigns, offer discounts, hire a social media influencer to promote the product, and offer bulk deals to motivate customers to purchase the products. We have to restock the out-of-stock products to meet customer demand and maintain sales flow.
 
-* **Employeee**  - We can boost the employees who made high sales by providing bonuses, incentives,  holiday packages, etc. We have to discuss with the employees who didn't make any sales, and based on the discussion, we have to provide the necessary training or support to increase their skills. 
+* **Employeee**  - We can boost the employees who made high sales by providing bonuses, incentives,  holiday packages, etc. We have to discuss with the employees who didn't make any sales, and based on the discussion, we have to provide the necessary training or support to increase their skills.
+
+* **Credit Policy** - Based on the analysis, filter customers with credit issues and consider providing solutions or making changes in credit policies to reduce credit risk.
+
+* **Timely Service** - 
 
 
+                                                                   ### **END**
 
 
 
