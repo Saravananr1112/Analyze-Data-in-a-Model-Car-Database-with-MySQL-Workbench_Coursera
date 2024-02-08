@@ -20,7 +20,7 @@ Diving into the database structure and to see what type of data is stored in eac
 I will use SQL queries to retrieve the necessary data for Mint Classics to determine which storage facility is best to close.
 
 ### Warehouse details and stock inventory
-To understand how many warehouses are there, their capacity, whether stocks are stored or not, and stocks available in warehouse.
+To understand how many warehouses are there, their capacity, whether stocks are stored or not, and stocks available in the warehouse.
 
 ![Exploring warehouse details and stock inventory](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/c9bef49b-f912-446e-99bb-417430b19b5c)
 ![Exploring warehouse details and stock inventory_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/05e9d447-0f46-499f-8df4-8d5032a7fc60)
@@ -43,6 +43,21 @@ To identify products with high inventory volume but low sales?
 ![4_Warehouse stock inventory product wise](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/8a035f44-3611-4c81-bf01-61fe7b20cfc7)
 ![4_Warehouse stock inventory product wise_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/befc34d4-b60b-4ed9-b1c8-cad27583bd73)
 
+There are many products that have a high volume of stock but a low sales figure in all the warehouses. Now we'll see a summary of warehouse inventory status by product count.
+
+![5_Product count Inventory status wise](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/f2870e0c-2ad9-49fe-adf0-b166ee73c8a5)
+
+![5_Product count Inventory status wise_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/4d829ec2-ac10-4658-a9d1-d212158ebe82)
+
+We can see there was one product where the InventoryStatus shows "ToDiscontinue" in warehouse B, we'll see what type of product and its stock available in warehouse.
+
+![6_Checking if there are products that have not been ordered](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/88f485fb-ce23-43d5-b1c5-d8c2fd402b0c)
+
+![6_Checking if there are products that have not been ordered_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/34852d76-508e-42f2-9901-1bd1c1a8f03c)
+
+
+
+ 
 
 
 
