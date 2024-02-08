@@ -81,7 +81,12 @@ We can identify customers who have payments less than their credit limits and ev
 ### Formulate suggestions and recommendations for solving the business problem.
 I have performed data analysis using SQL queries and formulated recommendations to address the inventory-related business problems.
 
-* **Warehouse** - We can close warehouse C, which has space available (only 50% filled), and warehouses B and C share the same category of products. Also, we can remove the 1985 Toyota Supra, which has never been ordered from warehouse B. This helps us to reduce warehouse rental costs and optimize inventory allocation.  
+* **Warehouse** - We can close warehouse C, which has space available (only 50% filled), and warehouses B and C share the same category of products. Also, we can remove the 1985 Toyota Supra, which has never been ordered from warehouse B. It will help us to reduce warehouse rental costs and optimize inventory allocation.
+
+*  **Inventory** -  We have to remove the 1985 Toyota Supra from warehouse B, which has never been ordered from the start; this could increase the warehouse capacity. During our analysis, we identified a couple of products with a high volume of stock but low sales in all the warehouses. The best way to deal with it is to compare the price range of those products on the market and adjust the price accordingly. This may attract customers and increase the volume of sales. We can also do promotional campaigns, offer discounts, hire a social media influencer to promote the product, and offer bulk deals to motivate customers to purchase the products. We have to restock the out-of-stock products to meet customer demand and maintain sales flow.
+
+* **Employeee**  - 
+
 
 
 
