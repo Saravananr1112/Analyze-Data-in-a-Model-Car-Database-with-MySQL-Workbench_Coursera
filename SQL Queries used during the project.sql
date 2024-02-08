@@ -58,16 +58,9 @@ FROM StockInvProwise
 WHERE totalOrdered is null
 
 -- Product count Inventory status wise
-SELECT warehouseCode,warehouseName,InventoryStatus,COUNT(totalProduct)
+SELECT warehouseCode,warehouseName,InventoryStatus,COUNT(totalProduct)Productcount
 FROM StockInvProwise
 GROUP BY InventoryStatus,warehouseCode,warehouseName
-
--- Checking whether there are any products that shipped delay 
-SELECT orderNumber,orderDate,requiredDate,shippedDate,status,datediff(requiredDate,shippedDate)Noofdays
-FROM orders
-WHERE datediff(requiredDate,shippedDate)<0
-ORDER BY Noofdays DESC
-
 
 -- Employee sales summary
 CREATE TABLE EmployeeDetails
@@ -92,3 +85,15 @@ ON customers.customerNumber=payments.customerNumber
 GROUP BY customers.customerNumber,customers.creditLimit
 HAVING SUM(payments.amount) < customers.creditLimit
 ORDER BY creditLimitDifference
+
+-- Shipment Details 
+CREATE TEMPORARY TABLE ShipmentDetails
+SELECT orderNumber,orderDate,requiredDate,shippedDate,status,datediff(requiredDate,shippedDate)Noofdays,comments
+FROM orders
+ORDER BY Noofdays DESC
+
+-- Checking whether there are any products that shipped delay
+SELECT *
+FROM ShipmentDetails
+WHERE NoofDays<0
+ORDER BY Noofdays DESC
