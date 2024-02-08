@@ -31,7 +31,8 @@ We can see that there are four warehouses with their corresponding codes, names,
 ### Warehouse stock inventory category wise
 To understand what types of product categories are stored in each warehouse and any relationships between products that are stored in multiple warehouses.
 
-![2_Warehouse stock inventory products wise](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/980c3cb5-4782-40a4-a0c7-aca047a800fe)
+![2_Warehouse stock inventory products wise](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/74e4ce0c-c9d8-41e2-8f2c-20bf3fb9b72b)
+
 ![3_Warehouse stock inventory products wise_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/1b50d8b5-4589-4072-9b9b-9eb0488aa7c6)
 
 The result clearly shows that both warehouses B and C are storing the same product category, which is cars. In warehouse stock inventory, we saw Warehouse C has the most space available, at only 50% filled.
@@ -41,7 +42,7 @@ The result clearly shows that both warehouses B and C are storing the same produ
 To identify products with high volume of stock but low sales.
 
 ![4_Warehouse stock inventory product wise](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/8a035f44-3611-4c81-bf01-61fe7b20cfc7)
-![4_Warehouse stock inventory product wise_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/befc34d4-b60b-4ed9-b1c8-cad27583bd73)
+![3_Warehouse stock inventory product wise_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/08b86acc-108f-42da-98b9-0f8363438d35)
 
 There are many products that have a high volume of stock but a low sales figure in all the warehouses. Now we'll see a summary of warehouse inventory status by product count.
 
@@ -77,6 +78,21 @@ We can identify customers who have payments less than their credit limits and ev
 ![8_Verifying company’s credit details_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/60a2e43b-0e1a-4b13-9a88-ade309cc0ac2)
 
 
+### Analysing shipment duration
+Minclassics want to know whether they would be able to ship a product to a customer within 24 hours of the order being placed. We will analyze the shipment details.
+
+![9_ShipmentDetails](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/e0ce7cd6-c316-4eb2-b876-becf87369f22)
+![9_ShipmentDetails_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/9609c09e-229c-43f8-887d-e23b2cbd5433)
+
+Identifying if any shipments are delayed.
+
+![10_Shipment Delay](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/d8315d5f-6be8-456f-b5e9-4782911fd2da)
+
+![10_Shipment Delay_Out](https://github.com/Saravananr1112/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/159127219/36ae2c77-d756-4ebb-ab1d-edf6f0742c44)
+
+One order was delayed for 56 days, and we can see that the shipment was put on hold because the credit limit was exceeded for the customer.
+
+
 
 ### Formulate suggestions and recommendations for solving the business problem.
 I have performed data analysis using SQL queries and formulated recommendations to address the inventory-related business problems.
@@ -89,10 +105,10 @@ I have performed data analysis using SQL queries and formulated recommendations 
 
 * **Credit Policy** - Based on the analysis, filter customers with credit issues and consider providing solutions or making changes in credit policies to reduce credit risk.
 
-* **Timely Service** - 
+* **Timely Service** - With the help of the analysis findings, out of 326 orders, only 16 were delivered within 24 hours of the order being placed. In addition, we can clearly say they delivered all the orders before the requested date mentioned by the customers.
 
 
-                                                                   ### **END**
+###                                                                          **END**
 
 
 
