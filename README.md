@@ -8,7 +8,7 @@ Mint Classics Company, a retailer of classic model cars and other vehicles, is l
 3. Provide analytic insights and data-driven recommendations.
 
 ### Import the Classic Model Car Relational Database
-For this task I will Download the mintclassicsDB.sql file, which is the SQL script that will create and populate the Mint Classics relational database.
+For this task I have Download the mintclassicsDB.sql file, which is the SQL script that will create and populate the Mint Classics relational database.
 
 ### Exploring Mint Classic database and business processes
 Diving into the database structure and to see what type of data is stored in each table and how the tables are related. Since the database is designed to represent the business, familiarity with the database builds familiarity with business process. Using the EER, we can visualize how data flows. How it is processed mirrors how business activities occur and interrelationships among tables.
